@@ -26,6 +26,12 @@ brew install python3
 # Install Git
 brew install git
 
+# Install alt-tab
+brew install alt-tab
+
+# Install hiddenbar
+brew install hiddenbar
+
 #Install Github cli
 curl -sS https://webi.sh/gh | sh
 
@@ -38,5 +44,14 @@ git config --global init.defaultBranch main
 # Set pull to repase to maintain a linear history 
 git config --global pull.rebase true
 
-# Open Tabs for download vscode and chrome and gcal and gmail for adding to dock
-open -a Safari 'https://mail.google.com' 'https://calendar.google.com' 'https://code.visualstudio.com' 'https://www.google.com/chrome/'
+# Install vscode
+brew install visual-studio-code
+
+# Install vscode
+brew install spotify
+
+# Install vscode
+brew install iterm2
+
+# Open Tabs for chrome and gcal and gmail for adding to dock
+open -a Safari 'https://mail.google.com' 'https://calendar.google.com' 'https://www.google.com/chrome/'

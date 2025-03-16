@@ -8,3 +8,4 @@ rectangle
 visual-studio-code
 spotify
 iterm2
+gh

@@ -26,6 +26,9 @@ brew install --cask docker
 # install raycast
 brew install --cask raycast
 
+# install notion
+brew install --cask notion
+
 #Install Github cli
 curl -sS https://webi.sh/gh | sh
 

@@ -29,9 +29,6 @@ brew install --cask raycast
 # install notion
 brew install --cask notion
 
-#Install Github cli
-curl -sS https://webi.sh/gh | sh
-
 ### Git setup
 # Add username and email for github
 git config --add --global user.name $username

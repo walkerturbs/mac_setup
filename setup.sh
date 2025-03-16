@@ -20,6 +20,12 @@ xargs brew install < brew-casks.txt
 # install brew formulae
 xargs brew install < brew-formulae.txt
 
+# install docker desktop
+brew install --cask docker
+
+# install raycast
+brew install --cask raycast
+
 #Install Github cli
 curl -sS https://webi.sh/gh | sh
 

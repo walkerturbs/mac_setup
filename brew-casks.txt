@@ -9,3 +9,6 @@ visual-studio-code
 spotify
 iterm2
 gh
+docker
+raycast
+notion

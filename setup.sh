@@ -15,19 +15,10 @@ export PATH="/opt/homebrew/bin:$PATH"
 source ~/.zshrc
 
 # install brew casks
-xargs brew install < brew-casks.txt
+xargs brew install --cask < brew-casks.txt
 
 # install brew formulae
-xargs brew install < brew-formulae.txt
-
-# install docker desktop
-brew install --cask docker
-
-# install raycast
-brew install --cask raycast
-
-# install notion
-brew install --cask notion
+xargs brew install --formulae < brew-formulae.txt
 
 ### Git setup
 # Add username and email for github

@@ -14,23 +14,11 @@ RUNZSH=no sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/
 export PATH="/opt/homebrew/bin:$PATH"
 source ~/.zshrc
 
-# Install neovim
-brew install neovim
+# install brew casks
+xargs brew install < brew-casks.txt
 
-# Install tmux
-brew install tmux
-
-# Install Python
-brew install python3
-
-# Install Git
-brew install git
-
-# Install alt-tab
-brew install alt-tab
-
-# Install hiddenbar
-brew install hiddenbar
+# install brew formulae
+xargs brew install < brew-formulae.txt
 
 #Install Github cli
 curl -sS https://webi.sh/gh | sh
@@ -43,15 +31,6 @@ git config --add --global user.email $email
 git config --global init.defaultBranch main
 # Set pull to repase to maintain a linear history 
 git config --global pull.rebase true
-
-# Install vscode
-brew install visual-studio-code
-
-# Install vscode
-brew install spotify
-
-# Install vscode
-brew install iterm2
 
 # Open Tabs for chrome and gcal and gmail for adding to dock
 open -a Safari 'https://mail.google.com' 'https://calendar.google.com' 'https://www.google.com/chrome/'

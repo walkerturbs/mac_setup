@@ -1,0 +1,10 @@
+neovim
+tmux
+python3
+git
+alt-tab
+hiddenbar
+rectangle
+visual-studio-code
+spotify
+iterm2

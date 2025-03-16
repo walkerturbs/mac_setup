@@ -12,3 +12,4 @@ gh
 docker
 raycast
 notion
+google-chrome

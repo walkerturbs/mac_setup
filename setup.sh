@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# Apple script to turn on dark mode
+osascript -e 'tell app "System Events" to tell appearance preferences to set dark mode to dark mode'
+
 # Taking inputs for later github setup
 read -p "Enter your github username: " username
 read -p "Enter your email: " email
@@ -31,3 +34,6 @@ git config --global pull.rebase true
 
 # Open Tabs for chrome and gcal and gmail for adding to dock
 open -a Safari 'https://mail.google.com' 'https://calendar.google.com'
+
+# Install uv package
+pip install uv

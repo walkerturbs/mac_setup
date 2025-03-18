@@ -13,3 +13,4 @@ docker
 raycast
 notion
 google-chrome
+dbeaver-community

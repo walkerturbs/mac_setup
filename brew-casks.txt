@@ -14,3 +14,5 @@ raycast
 notion
 google-chrome
 dbeaver-community
+uv
+ruff

@@ -1,0 +1,17 @@
+charliermarsh.ruff
+dracula-theme.theme-dracula
+esbenp.prettier-vscode
+fosshaas.fontsize-shortcuts
+ms-azuretools.vscode-docker
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
+nur.just-black
+streetsidesoftware.code-spell-checker
+tamasfe.even-better-toml
+vscode-icons-team.vscode-icons

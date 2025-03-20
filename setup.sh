@@ -61,5 +61,8 @@ export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/
 EOF
 source ~/.zshrc
 
-
+# install vs code extensions
 cat vs_code_extensions_list.txt | xargs -L1 code --install-extension
+
+# write settings to vs code settings
+cat vs_code_settings.json > ~/Library/Application\ Support/Code/User/settings.json

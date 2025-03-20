@@ -1,0 +1,14 @@
+{
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "Anonymous Pro Minus",
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#00ff00"
+    },
+    "editor.fontFamily": "Anonymous Pro Minus",
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": false,
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.iconTheme": "vscode-icons"
+    
+}

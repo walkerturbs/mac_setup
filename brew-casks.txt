@@ -16,3 +16,4 @@ google-chrome
 dbeaver-community
 uv
 ruff
+zoom

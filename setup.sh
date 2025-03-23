@@ -51,8 +51,12 @@ open -a Safari 'https://mail.google.com' 'https://calendar.google.com'
 
 # If work then also open tab for gcloud sdk
 if [[ "$work" == "Y" || "$work" == "y" ]]; then
+    brew install --cask slack
     open -a Safari "https://cloud.google.com/sdk/docs/install-sdk"
 fi 
+
+# enable shell autocompletion for uv commands
+echo 'eval "$(uv generate-shell-completion zsh)"' >> ~/.zshrc
 
 # Add vscode to path
 cat << EOF >> ~/.zprofile

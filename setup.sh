@@ -51,7 +51,7 @@ open -a Safari 'https://mail.google.com' 'https://calendar.google.com'
 
 # If work then also open tab for gcloud sdk
 if [[ "$work" == "Y" || "$work" == "y" ]]; then
-    brew install --cask slack
+    cat work-brew-casks.txt | xargs brew install --cask
     open -a Safari "https://cloud.google.com/sdk/docs/install-sdk"
 fi 
 
